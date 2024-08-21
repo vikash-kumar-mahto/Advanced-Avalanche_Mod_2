@@ -25,6 +25,8 @@ func init() {
 		consts.ActionRegistry.Register(&actions.Transfer{}, actions.UnmarshalTransfer, false),
 
 		// TODO: register action: actions.CreateAsset
+		consts.ActionRegistry.Register(&actions.CreateAsset{}, actions.UnmarshalCreateAsset, false),
+        consts.ActionRegistry.Register(&actions.MintAsset{}, actions.UnmarshalMintAsset, false),
 		// TODO: register action: actions.MintAsset
 		consts.ActionRegistry.Register(&actions.BurnAsset{}, actions.UnmarshalBurnAsset, false),
 		consts.ActionRegistry.Register(&actions.ModifyAsset{}, actions.UnmarshalModifyAsset, false),

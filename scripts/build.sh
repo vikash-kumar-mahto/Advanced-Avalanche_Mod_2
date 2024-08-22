@@ -21,7 +21,7 @@ fi
 name="tHBYNu8ikqo4MWMHehC9iKB9mR5tB3DWzbkYmTfe9buWQ5GZ8"
 
 # Build tokenvm, which is run as a subprocess
-mkdir -p ./build
+
 
 echo "Building tokenvm in ./build/$name"
 go build -o ./build/$name ./cmd/tokenvm

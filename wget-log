@@ -1,0 +1,16 @@
+--2024-08-23 02:12:46--  https://go.dev/dl/go1.20.linux-amd64.tar.gz
+Resolving go.dev (go.dev)... 216.239.36.21, 216.239.32.21, 216.239.34.21, ...
+Connecting to go.dev (go.dev)|216.239.36.21|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://dl.google.com/go/go1.20.linux-amd64.tar.gz [following]
+--2024-08-23 02:12:47--  https://dl.google.com/go/go1.20.linux-amd64.tar.gz
+Resolving dl.google.com (dl.google.com)... 142.250.194.78, 2404:6800:4002:811::200e
+Connecting to dl.google.com (dl.google.com)|142.250.194.78|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 99869470 (95M) [application/x-gzip]
+Saving to: ‘go1.20.linux-amd64.tar.gz.2’
+
+go1.20.linux-amd64.tar  97%[========================> ]  92.73M  1.11MB/s    eta 3s     go1.20.linux-amd64.tar  97%[========================> ]  92.96M  1.12MB/s    eta 3s     go1.20.linux-amd64.tar  97%[========================> ]  93.16M  1.11MB/s    eta 3s     go1.20.linux-amd64.tar  98%[========================> ]  93.43M  1.11MB/s    eta 2s     go1.20.linux-amd64.tar  98%[========================> ]  93.71M  1.11MB/s    eta 2s     go1.20.linux-amd64.tar  98%[========================> ]  93.80M  1.08MB/s    eta 2s     go1.20.linux-amd64.tar  98%[========================> ]  94.01M  1.06MB/s    eta 2s     go1.20.linux-amd64.tar  98%[========================> ]  94.12M  1.03MB/s    eta 2s     go1.20.linux-amd64.tar  99%[========================> ]  94.33M  1.03MB/s    eta 1s     go1.20.linux-amd64.tar  99%[========================> ]  94.51M  1.01MB/s    eta 1s     go1.20.linux-amd64.tar  99%[========================> ]  94.77M  1.02MB/s    eta 1s     go1.20.linux-amd64.tar  99%[========================> ]  94.99M  1.02MB/s    eta 1s     go1.20.linux-amd64.tar 100%[=========================>]  95.24M  1.03MB/s    in 86s     
+
+2024-08-23 02:14:13 (1.10 MB/s) - ‘go1.20.linux-amd64.tar.gz.2’ saved [99869470/99869470]
+

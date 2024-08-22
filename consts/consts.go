@@ -2,6 +2,7 @@
 // See the file LICENSE for licensing terms.
 
 package consts
+./build/token-cli key import demo.pk
 
 import (
 	"github.com/ava-labs/avalanchego/ids"
